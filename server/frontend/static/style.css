@@ -24,7 +24,12 @@ img{
 }
 
 .container{
-  justify-content: center;
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .details{
   font-size: 20px;
@@ -122,5 +127,23 @@ img{
     color:#FFF;
     border-radius:50px;
     text-align:center;
-    box-shadow: 2px 2px 3px #999;  
+    box-shadow: 2px 2px 3px #999;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.contact-info img {
+    max-width: 200px;
+}
+.contact-info div {
+    text-align: left;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+.contact-info p a {
+    color: #00b7c4;
+    text-decoration: none;
 }
